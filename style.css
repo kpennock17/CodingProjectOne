@@ -1,0 +1,99 @@
+:root {
+    --usf-green: #3943ff;
+    --usf-gold: #ffe7b4;
+    --white: #FFFFFF;
+    --text-dark: #333333;
+    --link-hover: #FDBB30;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--text-dark);
+    color: var(--text-dark);
+    line-height: 1.6;
+  }
+  
+  body h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  body p {
+    font-size: 1.0rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+#name {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+#email {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+#comments {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-dark);
+    background-color: #373aff;
+    border:  1px solid #ddd; 
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 40%;
+    margin: 0;
+}
+form {
+    margin: 0 auto;
+    width: 300px; 
+}
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form > div:has(button) {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem; 
+    width: 100%;
+}
